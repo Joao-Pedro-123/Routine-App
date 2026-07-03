@@ -6,3 +6,27 @@ button{
     background-color: #ffffff00;
     border: none;
 }
+
+.adicionarTarefa{
+    background-color: rgb(223, 34, 144);
+    border: none;
+    color: white;
+    border-radius: 2em;
+}
+
+.btn-empty {
+  background-color: transparent;
+  border: 3px solid black;
+  border-radius: 100%;
+  width: 1em;
+  height: 1em;
+  transition: 0.5s ease all;
+}
+
+.btn-full {
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 100%;
+  width: 1em;
+  height: 1em;
+}

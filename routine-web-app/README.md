@@ -41,5 +41,14 @@ No primeiro dia deste projeto, foi criada a lista de funcionalidades, a criaçã
 
 Estas tarefas podem ser realizadas em até um dia, mas ainda não sou muito rápido em React, tenho outras coisas para fazer durante o dia e não quero jogar quase tudo para uma IA fazer.
 
+### O que foi feito no código no primeiro dia:
+No primeiro dia, criei o componente task e criei uma div básica para agrupar as tarefas. Depois dessas ações eu foquei na lógica de marcar uma tarefa como concluída. A Lógica não foi terminada ainda, será terminada amanhã, e se eu não conseguir terminar amanhã, vou fazer isso no sábado(😭). Por fim, eu coloquei o projeto no GitHub.
+
+## Segundo Dia (02/07/2026)
+
+Neste segundo dia, realizei a parte da fundamental lógica dita anteriorimente (com um pouco de ajuda do Gemini) e criei o botão de adicionar tarefas. Atualmente este botão realializa a ação esperada com um dado padrão, mas falta a opção de escrever a tarefa. 
+
+
+
 
 
