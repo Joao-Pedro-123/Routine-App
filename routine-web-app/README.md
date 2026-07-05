@@ -48,7 +48,10 @@ No primeiro dia, criei o componente task e criei uma div básica para agrupar as
 
 Neste segundo dia, realizei a parte da fundamental lógica dita anteriorimente (com um pouco de ajuda do Gemini) e criei o botão de adicionar tarefas. Atualmente este botão realializa a ação esperada com um dado padrão, mas falta a opção de escrever a tarefa. 
 
+Percebi que cada tarefa precisa ter o seu id, pois se duas tarefas tiverem o mesmo nome, e uma delas for marcada, as duas serão. Geralmente alguém não vai criar uma tarefa com o mesmo nome, mas mesmo assim vou fazer isso.
 
+## Terceiro Dia (03/07/2026)
 
+Este é o último dia que tenho para finalizar o que predefini*.
 
 

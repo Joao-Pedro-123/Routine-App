@@ -1,6 +1,22 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-export default function Task({ task, taskId, setTasks, tasks }) {
+export default function Task({ task, taskId, setTasks, tasks, generalDate, setGeneralDate, date }) {
+    
+    useEffect(() => {
+        const intervalo = setInterval(() => {
+            setGeneralDate(new Date());
+        }, 5000);
+
+        return () => clearInterval(intervalo);
+    }, []);
+
+    const listAtualizada = tasks.map((element) => {
+        if (generalDate.getDay() > element.taskEndDate){
+            return
+        };
+
+        return element;
+    })
     
     function endTask() {
         // Usamos o .map para criar uma nova lista modificando apenas a task atual
@@ -24,7 +40,7 @@ export default function Task({ task, taskId, setTasks, tasks }) {
             <button onClick={endTask} style={{ background: "none", border: "none", cursor: "pointer" }}> 
                 <div className={task.status === "on" ? "btn-empty" : "btn-full"}> </div> 
             </button>
-            <span> {task.task} - status: {task.status} </span>
+            <span> {task.task} - status: {task.status} - dI: {task.startDate} dF: {task.taskEndDate} </span>
         </div>
     );
 }
